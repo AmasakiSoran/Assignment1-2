@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageButton
+        android:id="@id/button"
+        android:layout_width="192dp"
+        android:layout_height="259dp"
+        android:layout_below="@+id/button2"
+
+        android:layout_marginTop="-267dp"
+        android:src="@drawable/news1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="192dp"
+        android:layout_height="259dp"
+        android:layout_below="@+id/button"
+        android:src="@drawable/news2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="192dp"
+        android:layout_height="259dp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/news4"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="259dp"
+        android:layout_alignParentRight="true" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="192dp"
+        android:layout_height="259dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/new3"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
